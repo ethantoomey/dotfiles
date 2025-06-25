@@ -1,0 +1,17 @@
+background = 000000
+foreground = ffffff
+
+background-opacity = 1
+background-blur = false
+
+font-size = 12
+cursor-style = "underline"
+shell-integration-features = no-cursor
+
+macos-titlebar-style= "tabs"
+mouse-hide-while-typing = true
+
+window-theme = "ghostty"
+window-padding-x = 12
+window-width = 144
+window-height = 39
