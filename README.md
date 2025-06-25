@@ -1,6 +1,9 @@
-These are my personal dotfiles for my Mac & any Linux machine I setup
+# dotfiles
 
-There are dotfiles for the following items:
-- fastfetch
-- fish [shell]
-- ghostty [terminal]
+dotfiles configured for the following:
+- [fastfetch](https://github.com/fastfetch-cli/fastfetch)
+- [fish](https://github.com/fish-shell/fish-shell)
+- [ghostty](https://github.com/ghostty-org/ghostty)
+<br/>
+
+![screenshot](screenshot.png)
