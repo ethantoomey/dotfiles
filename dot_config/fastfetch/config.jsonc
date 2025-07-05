@@ -1,0 +1,96 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  
+  "logo": {
+    "type": "file-raw",
+    "source": "~/.config/etoomey/assets/icons/golden_record",
+    "padding": {
+      "left": 1,
+      "top": 0
+    }
+  },
+
+  "general": {
+    "thread": true,
+  },
+
+  "display": {
+
+    "key": {
+      "type": "string",
+      "paddingLeft": 0
+    },
+
+    "color":{
+      "keys": "38;2;219;198;81",
+      "title": "38;2;219;198;81",
+      "output": "38;2;250;250;250"
+    },
+
+    "disableLinewrap": false
+  },
+
+
+
+  "modules": [
+
+    {
+      "type": "title",
+      "format": "<{user-name-colored}@{host-name-colored}>"
+    },
+
+    "break",
+
+    // {
+    //   "type": "title",
+    //   "format": "[Software]",
+    //   "outputColor": "38;2;255;255;255"
+    // },
+    "os",
+    "kernel",
+
+    {
+      "type": "shell",
+      "format": "{pretty-name}"
+    },
+
+    {
+      "type": "terminal",
+      "format": "{pretty-name}"
+    },
+
+    "packages",
+    "break",
+
+
+    // {
+    //   "type": "title",
+    //   "format": "[Hardware]"
+    // },
+    "cpu", 
+    "gpu",
+    "memory",
+    {
+      "type": "disk",
+      "key": "Disk",
+      "showReadOnly": false
+    },
+
+    {
+      "type": "battery",
+      "key": "Battery",
+      "format": "{capacity} ({time-hours}h{time-minutes}m remaining)"
+    },
+    "break",
+
+    // {
+    //   "type": "title",
+    //   "format": "[Network]"
+    // },
+
+    "publicip",
+    "localip",
+    "dns"
+
+  ]
+}
